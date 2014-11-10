@@ -1,11 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$7d486473a0e8efb9f3fa3b292e3b6513412809bd.json": {
-            "sha1": "7d486473a0e8efb9f3fa3b292e3b6513412809bd"
-        },
-        "include/vendor.json": {
-            "sha1": ""
+        "include/all$d94939032f13b742e0fafedb59b959e9089856dd.json": {
+            "sha1": "d94939032f13b742e0fafedb59b959e9089856dd"
         }
     }
 }

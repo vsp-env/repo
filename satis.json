@@ -3,6 +3,17 @@
     "homepage":     "www.localhost",
     "repositories": [
         {
+            "type": "package",
+            "package": {
+                "name": "google/apiclient-partner",
+                "version": "1.0.6",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://developers.google.com/youtube/partner/clientlib/google-youtubePartner-v1-rev20140917-php-1.0.6-beta.zip"
+                }
+            }
+        },
+        {
             "type":         "vcs",
             "url":          "https://github.com/google/google-api-php-client.git"
         },
