@@ -358,20 +358,14 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://bitbucket.org/draydeer/scope.git",
-                    "reference": "8770547619d6916c30040d41d076d7a26e7d100a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://bitbucket.org/draydeer/scope/get/8770547619d6916c30040d41d076d7a26e7d100a.zip",
-                    "reference": "8770547619d6916c30040d41d076d7a26e7d100a",
-                    "shasum": ""
+                    "url": "git@vsp:vsp-env/scope.git",
+                    "reference": "832cf93efbaeeb476e2d4b8002b82e9fe39b568f"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
                     "google/apiclient-partner": "1.0.6"
                 },
-                "time": "2014-11-10 10:56:29",
+                "time": "2014-11-10 14:53:20",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -381,6 +375,29 @@
                     }
                 },
                 "description": "implements Data API's wrappers, provides DAL - data abstraction layer for VSP services"
+            }
+        },
+        "vsp/vsp-realauth": {
+            "dev-master": {
+                "name": "vsp/vsp-realauth",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/vsp-realauth.git",
+                    "reference": "8db89344d926dffbb0ae99d2bcdfedb8ae586d67"
+                },
+                "require": {
+                    "google/apiclient": "dev-master"
+                },
+                "time": "2014-11-10 15:59:32",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "VSP/RealAuth": "Lib/"
+                    }
+                },
+                "description": "vsp, global authentication library"
             }
         }
     }

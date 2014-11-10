@@ -8,20 +8,12 @@
         },
         {
             "type":         "vcs",
-            "url":          "https://bitbucket.org/draydeer/scope.git"
+            "url":          "git@vsp:vsp-env/scope.git"
+        },
+        {
+            "type":         "vcs",
+            "url":          "git@vsp:vsp-env/vsp-realauth.git"
         }
     ],
-    "packages": {
-        "google/apiclient-partner":	{
-            "1.0.6": {
-                "name":        	"google/apiclient-partner",
-                "version":    	"1.0.6",
-                "dist": 		{
-                    "type":        	"zip",
-                    "url":         	"https://developers.google.com/youtube/partner/clientlib/google-youtubePartner-v1-rev20140917-php-1.0.6-beta.zip"
-                }
-            }
-        }
-    },
     "require-all": true
 }

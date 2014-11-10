@@ -42,7 +42,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
         <div id="hd">
             <h1>VSP Composer Repository</h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2014-11-10T12:25:48+0000">Mon, 10 Nov 2014 12:25:48 +0000</time>
+                Last updated: <time datetime="2014-11-10T16:02:33+0000">Mon, 10 Nov 2014 16:02:33 +0000</time>
             </div>
         </div>
         <div id="bd">
@@ -91,6 +91,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <td>
                                                                                                                 <ul>
                                                                                             <li><a href="#vsp/scope">vsp/scope</a></li>
+                                                                                            <li><a href="#vsp/vsp-realauth">vsp/vsp-realauth</a></li>
                                                                                     </ul>
                                                                     </td>
                             </tr>
@@ -103,7 +104,23 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                                                                                             <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://bitbucket.org/draydeer/scope/get/8770547619d6916c30040d41d076d7a26e7d100a.zip" title="8770547619d6916c30040d41d076d7a26e7d100a">dev-master</a>                                </td>
+                                    <a href="git@vsp:vsp-env/scope.git" title="832cf93efbaeeb476e2d4b8002b82e9fe39b568f">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
+                        <h3 id="vsp/vsp-realauth">vsp/vsp-realauth</h3>
+                                                    <p>vsp, global authentication library</p>
+                                                <table>
+                                                                                                                                            <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="git@vsp:vsp-env/vsp-realauth.git" title="8db89344d926dffbb0ae99d2bcdfedb8ae586d67">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -115,7 +132,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2014-11-10T12:25:48+0000</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2014-11-10T16:02:33+0000</small></p>
         </div>
     </div>
 
@@ -164,7 +181,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2014-11-10T12:25:48+0000').fromNow());
+            $lastUpdate.text(moment('2014-11-10T16:02:33+0000').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
