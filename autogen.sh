@@ -1,0 +1,1 @@
+satis build satis.json .

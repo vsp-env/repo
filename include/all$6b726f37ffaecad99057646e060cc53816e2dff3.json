@@ -1,0 +1,438 @@
+{
+    "packages": {
+        "google/apiclient": {
+            "v1.0.0-alpha": {
+                "name": "google/apiclient",
+                "version": "v1.0.0-alpha",
+                "version_normalized": "1.0.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "889aa1e32d8d4ca5c747154aef5d9e8649ff1d0a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/889aa1e32d8d4ca5c747154aef5d9e8649ff1d0a",
+                    "reference": "889aa1e32d8d4ca5c747154aef5d9e8649ff1d0a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "time": "2013-11-13 16:18:16",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Google": "src"
+                    }
+                },
+                "include-path": [
+                    "src/"
+                ],
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/v1.0.0-alpha",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "v1.0.1-beta": {
+                "name": "google/apiclient",
+                "version": "v1.0.1-beta",
+                "version_normalized": "1.0.1.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "439b13854ebecd054ff247c2db84944cfda3ba5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/439b13854ebecd054ff247c2db84944cfda3ba5e",
+                    "reference": "439b13854ebecd054ff247c2db84944cfda3ba5e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "time": "2014-01-22 15:06:38",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "include-path": [
+                    "src/"
+                ],
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/v1.0.1-beta",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "1.0.2-beta": {
+                "name": "google/apiclient",
+                "version": "1.0.2-beta",
+                "version_normalized": "1.0.2.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "792e5eccd0490dc9da8237d32ec0473a2c782961"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/792e5eccd0490dc9da8237d32ec0473a2c782961",
+                    "reference": "792e5eccd0490dc9da8237d32ec0473a2c782961",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "time": "2014-01-24 21:39:14",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "include-path": [
+                    "src/"
+                ],
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/1.0.2-beta",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "1.0.3-beta": {
+                "name": "google/apiclient",
+                "version": "1.0.3-beta",
+                "version_normalized": "1.0.3.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "2b3b475e3ee52e92fc7b649138ef4f9da3d4f9b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/2b3b475e3ee52e92fc7b649138ef4f9da3d4f9b9",
+                    "reference": "2b3b475e3ee52e92fc7b649138ef4f9da3d4f9b9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "time": "2014-01-30 21:36:57",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "include-path": [
+                    "src/"
+                ],
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/1.0.3-beta",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "1.0.4-beta": {
+                "name": "google/apiclient",
+                "version": "1.0.4-beta",
+                "version_normalized": "1.0.4.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "eb5934d58761f1a8575e6df6de02fdce89dd89d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/eb5934d58761f1a8575e6df6de02fdce89dd89d2",
+                    "reference": "eb5934d58761f1a8575e6df6de02fdce89dd89d2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "time": "2014-03-07 17:54:19",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "include-path": [
+                    "src/"
+                ],
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/1.0.4-beta",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "1.0.5-beta": {
+                "name": "google/apiclient",
+                "version": "1.0.5-beta",
+                "version_normalized": "1.0.5.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "c05d454790460f0c851c42298ea239ec5e631d76"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/c05d454790460f0c851c42298ea239ec5e631d76",
+                    "reference": "c05d454790460f0c851c42298ea239ec5e631d76",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-09-08 20:57:18",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "include-path": [
+                    "src/"
+                ],
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/1.0.5-beta",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "1.0.6-beta": {
+                "name": "google/apiclient",
+                "version": "1.0.6-beta",
+                "version_normalized": "1.0.6.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "a41a9dc0662e36420030eaab802dbb1f85459479"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a41a9dc0662e36420030eaab802dbb1f85459479",
+                    "reference": "a41a9dc0662e36420030eaab802dbb1f85459479",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-09-30 19:33:59",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "include-path": [
+                    "src/"
+                ],
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/1.0.6-beta",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "dev-master": {
+                "name": "google/apiclient",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "ba940794f406811c06aa9277d19dea2d2eaac08f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/ba940794f406811c06aa9277d19dea2d2eaac08f",
+                    "reference": "ba940794f406811c06aa9277d19dea2d2eaac08f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-11-10 10:02:37",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/master",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            }
+        },
+        "google/apiclient-partner": {
+            "1.0.6": {
+                "name": "google/apiclient-partner",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://developers.google.com/youtube/partner/clientlib/google-youtubePartner-v1-rev20140917-php-1.0.6-beta.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "type": "library"
+            }
+        },
+        "vsp/scope": {
+            "dev-master": {
+                "name": "vsp/scope",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/scope.git",
+                    "reference": "6e5ac3879c7d62048cf317b72496df2f11c88596"
+                },
+                "require": {
+                    "google/apiclient": "dev-master",
+                    "google/apiclient-partner": "1.0.6"
+                },
+                "time": "2014-11-11 08:56:50",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Scope": "Lib/",
+                        "ScopeExt": "Ext/",
+                        "ScopeService": "Service/"
+                    }
+                },
+                "description": "implements Data API's wrappers, provides DAL - data abstraction layer for VSP services"
+            }
+        },
+        "vsp/vsp-aux": {
+            "dev-master": {
+                "name": "vsp/vsp-aux",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/vsp-aux.git",
+                    "reference": "8462375a64ab95e9d96aca9c2a8d682b8c874aaa"
+                },
+                "time": "2014-11-11 14:13:16",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "VSP\\Aux\\": "Lib/"
+                    }
+                },
+                "description": "vsp, auxiliary stuff"
+            }
+        },
+        "vsp/vsp-realauth": {
+            "dev-master": {
+                "name": "vsp/vsp-realauth",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/vsp-realauth.git",
+                    "reference": "8db89344d926dffbb0ae99d2bcdfedb8ae586d67"
+                },
+                "require": {
+                    "google/apiclient": "dev-master"
+                },
+                "time": "2014-11-10 15:59:32",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "VSP/RealAuth": "Lib/"
+                    }
+                },
+                "description": "vsp, global authentication library"
+            }
+        }
+    }
+}
