@@ -1,0 +1,14 @@
+
+server
+{
+	listen			__HOST__:__PORT__;
+	server_name		satis.local.int;
+	
+	set				$root			'__ROOT__';
+	root			$root;
+
+	if (-f $request_filename)
+	{
+		break;
+	}
+}
