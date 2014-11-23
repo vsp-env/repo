@@ -304,19 +304,19 @@
                     "issues": "https://github.com/google/google-api-php-client/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "google/apiclient",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "b19fc65f7db9d2071a9db4be1fd5fad3fe6abf6f"
+                    "reference": "f985b38158efe4c55c90b90443311f792c919a59"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/b19fc65f7db9d2071a9db4be1fd5fad3fe6abf6f",
-                    "reference": "b19fc65f7db9d2071a9db4be1fd5fad3fe6abf6f",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/f985b38158efe4c55c90b90443311f792c919a59",
+                    "reference": "f985b38158efe4c55c90b90443311f792c919a59",
                     "shasum": ""
                 },
                 "require": {
@@ -325,7 +325,53 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2014-11-13 10:51:47",
+                "time": "2014-11-20 10:13:43",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/1.1.1",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "dev-master": {
+                "name": "google/apiclient",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "de7802824c82ae75b2f6ab8690036f6f4266ea64"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/de7802824c82ae75b2f6ab8690036f6f4266ea64",
+                    "reference": "de7802824c82ae75b2f6ab8690036f6f4266ea64",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-11-22 10:16:02",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -373,14 +419,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "a9cb00930aed1f514b86467f713a3efab919975c"
+                    "reference": "6ea39e3aeb9a6f53e07c0211822927569b35eb73"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
                     "google/apiclient-partner": "1.0.6",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2014-11-13 18:45:20",
+                "time": "2014-11-23 09:57:31",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -400,9 +446,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "df64e9d5c7deffb0dbc19064bcbc7f538b6fcd08"
+                    "reference": "249c5092f1ff4f9f06fc5a95bd4f69d9ed004da6"
                 },
-                "time": "2014-11-12 18:13:04",
+                "time": "2014-11-23 07:46:12",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
