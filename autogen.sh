@@ -4,7 +4,7 @@ rm -f include/all*.json
 
 satis build satis.json .
 
-git add .
+git add -A
 git commit -m "update"
 git push vsp
 git push vspgithub
