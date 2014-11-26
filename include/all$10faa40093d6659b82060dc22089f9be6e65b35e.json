@@ -465,7 +465,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "ef84a02607955f52a880bb62fb517fd5a0b4518f"
+                    "reference": "5b5dbd9534c070742480316fa8957f629d99d4b9"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -474,7 +474,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2014-11-25 13:01:03",
+                "time": "2014-11-25 18:40:11",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -494,9 +494,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "8500caa52d4ef8a48236e454e00f1dbdd50eb417"
+                    "reference": "ebd1f0117247d9dbd8a1ff292b8dfa4da10d10c4"
                 },
-                "time": "2014-11-25 17:57:34",
+                "time": "2014-11-26 11:58:32",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
