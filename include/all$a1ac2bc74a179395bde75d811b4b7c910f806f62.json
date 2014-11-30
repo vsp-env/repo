@@ -457,6 +457,26 @@
                 "type": "library"
             }
         },
+        "phalcon/eyas": {
+            "dev-master": {
+                "name": "phalcon/eyas",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/eyas.git",
+                    "reference": "e35f3c1e4ca15e4c51d4d89025c5d26e6e35b2db"
+                },
+                "time": "2014-11-30 14:20:53",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Phalcon\\Eyas\\": "Lib/"
+                    }
+                },
+                "description": "phalcon mvc framework kit"
+            }
+        },
         "vsp/scope": {
             "dev-master": {
                 "name": "vsp/scope",
@@ -465,7 +485,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "e0ec917a8c1acb860d30cdec99eeed7bb5165967"
+                    "reference": "04f45518e148c39a4386ff525b8e813b6b375fb0"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -474,7 +494,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2014-11-29 22:50:21",
+                "time": "2014-11-30 11:52:04",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
