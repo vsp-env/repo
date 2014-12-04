@@ -403,12 +403,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "9e4fdcb9f17de2539a69e39fab0ef0b4b7d1bc91"
+                    "reference": "19b5739d01b2f66b0404dfd4b51dbcdcda5fed9d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/9e4fdcb9f17de2539a69e39fab0ef0b4b7d1bc91",
-                    "reference": "9e4fdcb9f17de2539a69e39fab0ef0b4b7d1bc91",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/19b5739d01b2f66b0404dfd4b51dbcdcda5fed9d",
+                    "reference": "19b5739d01b2f66b0404dfd4b51dbcdcda5fed9d",
                     "shasum": ""
                 },
                 "require": {
@@ -417,7 +417,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2014-11-28 10:23:03",
+                "time": "2014-12-03 10:28:53",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -465,9 +465,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/eyas.git",
-                    "reference": "463a2aeef4217ec333d1496813830b32b86f68cd"
+                    "reference": "b28b74ee80c11ea4f42bc17ffeabc748969c758c"
                 },
-                "time": "2014-11-30 17:27:14",
+                "time": "2014-12-04 10:24:45",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -485,7 +485,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "04f45518e148c39a4386ff525b8e813b6b375fb0"
+                    "reference": "525fddf50e1868612d67725df3b4e1b00b984c7c"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -494,7 +494,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2014-11-30 11:52:04",
+                "time": "2014-11-30 17:37:55",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
