@@ -465,9 +465,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/eyas.git",
-                    "reference": "21f013b44409df76876b1158e5ed0681227896cb"
+                    "reference": "c665a72c70e36c703039af2c147dd5a8923c23cd"
                 },
-                "time": "2014-12-10 14:55:18",
+                "time": "2014-12-10 15:46:26",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
