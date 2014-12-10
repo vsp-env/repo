@@ -534,12 +534,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-realauth.git",
-                    "reference": "6cdffe9c1cea8cb18144172f330e39965cb6e6e9"
+                    "reference": "7b4f2b11b32441c317747174f0761f6bfc233be1"
                 },
                 "require": {
+                    "phalcon/eyas": "dev-master",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2014-12-10 11:59:11",
+                "time": "2014-12-10 16:35:37",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
