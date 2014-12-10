@@ -534,17 +534,17 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-realauth.git",
-                    "reference": "7b4f2b11b32441c317747174f0761f6bfc233be1"
+                    "reference": "4f926e6d24bd88356dfbe8bbca6b317a1db3dd5b"
                 },
                 "require": {
                     "phalcon/eyas": "dev-master",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2014-12-10 16:35:37",
+                "time": "2014-12-10 17:54:37",
                 "type": "library",
                 "autoload": {
-                    "psr-0": {
-                        "VSP/RealAuth": "Lib/"
+                    "psr-4": {
+                        "VSP\\RealAuth": "Lib/"
                     }
                 },
                 "description": "vsp, global authentication library"
