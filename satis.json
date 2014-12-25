@@ -14,6 +14,17 @@
             }
         },
         {
+            "type": "package",
+            "package": {
+                "name": "google/ganon",
+                "version": "dev-master",
+                "dist": {
+                    "type": "file",
+                    "url": "https://ganon.googlecode.com/files/ganon.php"
+                }
+            }
+        },
+        {
             "type":         "vcs",
             "url":          "https://github.com/google/google-api-php-client.git"
         },

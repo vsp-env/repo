@@ -457,6 +457,20 @@
                 "type": "library"
             }
         },
+        "google/ganon": {
+            "dev-master": {
+                "name": "google/ganon",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "dist": {
+                    "type": "file",
+                    "url": "https://ganon.googlecode.com/files/ganon.php",
+                    "reference": null,
+                    "shasum": null
+                },
+                "type": "library"
+            }
+        },
         "phalcon/eyas": {
             "dev-master": {
                 "name": "phalcon/eyas",
