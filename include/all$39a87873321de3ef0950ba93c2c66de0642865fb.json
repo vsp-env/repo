@@ -403,12 +403,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "0540ba62d426b7171b21b6619c179d69f4b2165e"
+                    "reference": "0d4a67029c159e784f7cc62a066beb31095e533f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/0540ba62d426b7171b21b6619c179d69f4b2165e",
-                    "reference": "0540ba62d426b7171b21b6619c179d69f4b2165e",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/0d4a67029c159e784f7cc62a066beb31095e533f",
+                    "reference": "0d4a67029c159e784f7cc62a066beb31095e533f",
                     "shasum": ""
                 },
                 "require": {
@@ -417,7 +417,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2014-12-10 19:10:23",
+                "time": "2014-12-19 10:44:43",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -465,9 +465,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/eyas.git",
-                    "reference": "c665a72c70e36c703039af2c147dd5a8923c23cd"
+                    "reference": "c565601e04593647b99312a1cc9b2622dcb1ad44"
                 },
-                "time": "2014-12-10 15:46:26",
+                "time": "2014-12-22 18:26:37",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -514,9 +514,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "6be08d8d9d018a980eacb01e7218fd086735b20f"
+                    "reference": "7efcb6bcc02b3a1ad9d0eea9e5fe138b91002d13"
                 },
-                "time": "2014-12-10 16:38:28",
+                "time": "2014-12-18 17:29:37",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -526,25 +526,25 @@
                 "description": "vsp, auxiliary stuff"
             }
         },
-        "vsp/vsp-realauth": {
+        "vsp/vsp-realsync": {
             "dev-master": {
-                "name": "vsp/vsp-realauth",
+                "name": "vsp/vsp-realsync",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@vsp:vsp-env/vsp-realauth.git",
-                    "reference": "63293634e83a2fcc4885d8da77ab220bc6a10dcb"
+                    "url": "git@vsp:vsp-env/vsp-realsync.git",
+                    "reference": "62b3f88e8cd694c48621ec80b075b6840d911e94"
                 },
                 "require": {
                     "phalcon/eyas": "dev-master",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2014-12-11 13:50:21",
+                "time": "2014-12-25 11:08:41",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
-                        "VSP\\RealAuth\\": "Lib/"
+                        "VSP\\RealSync\\": "Lib/"
                     }
                 },
                 "description": "vsp, global authentication library"

@@ -31,7 +31,7 @@
         },
         {
             "type":         "vcs",
-            "url":          "git@vsp:vsp-env/vsp-realauth.git"
+            "url":          "git@vsp:vsp-env/vsp-realsync.git"
         }
     ],
     "require-all": true
