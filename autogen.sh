@@ -6,5 +6,5 @@ satis build satis.json .
 
 git add -A
 git commit -m "update"
-git push vsp master
-git push vspgithub master
+git push vsp master --force
+git push vspgithub master --force
