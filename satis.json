@@ -30,7 +30,7 @@
         },
         {
             "type":         "vcs",
-            "url":          "git@vsp:vsp-env/eyas.git"
+            "url":          "git@bitbucket.org:vsp-env/eyas.git"
         },
         {
             "type":         "vcs",
@@ -43,22 +43,6 @@
         {
             "type":         "vcs",
             "url":          "git@vsp:vsp-env/vsp-realsync.git"
-        },
-        {
-            "type":         "vcs",
-            "url":          "git@bitbucket.org:vsp-env/eyas.git"
-        },
-        {
-            "type":         "vcs",
-            "url":          "git@bitbucket.org:vsp-env/scope.git"
-        },
-        {
-            "type":         "vcs",
-            "url":          "git@bitbucket.org:vsp-env/vsp-aux.git"
-        },
-        {
-            "type":         "vcs",
-            "url":          "git@bitbucket.org:vsp-env/vsp-realsync.git"
         }
     ],
     "require-all": true
