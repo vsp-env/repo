@@ -403,12 +403,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "f07769e15dc0fdc30056e488e84bc042bd6a1c2d"
+                    "reference": "c631d8679bc0acbdb3a333a216073c304cb94a76"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/f07769e15dc0fdc30056e488e84bc042bd6a1c2d",
-                    "reference": "f07769e15dc0fdc30056e488e84bc042bd6a1c2d",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/c631d8679bc0acbdb3a333a216073c304cb94a76",
+                    "reference": "c631d8679bc0acbdb3a333a216073c304cb94a76",
                     "shasum": ""
                 },
                 "require": {
@@ -417,7 +417,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2015-01-07 11:03:15",
+                "time": "2015-01-13 11:09:41",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -479,9 +479,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:vsp-env/eyas.git",
-                    "reference": "b935c46f2801def0174fad3fdda9b6d72ee813d0"
+                    "reference": "6b7b51cf64f85ce493974453ccc7ae135526941f"
                 },
-                "time": "2015-01-07 16:31:04",
+                "time": "2015-01-13 16:30:55",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -499,7 +499,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "b4b77c240bb2ad53d0b477f11f93ae046b12a24b"
+                    "reference": "7d0229adc3cb1955fdf1d49c1718dee8d395c005"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -508,7 +508,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-01-07 16:31:57",
+                "time": "2015-01-10 19:23:23",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -548,13 +548,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-realsync.git",
-                    "reference": "6326113a23a47e492b4a3fe94db146bd2a563c3b"
+                    "reference": "26dcf25add07f4761b5ea3f3b9006f96908436ed"
                 },
                 "require": {
                     "phalcon/eyas": "dev-master",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-01-07 16:27:07",
+                "time": "2015-01-13 16:31:33",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
