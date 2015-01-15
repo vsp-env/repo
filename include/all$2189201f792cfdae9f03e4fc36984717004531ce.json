@@ -403,12 +403,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "c631d8679bc0acbdb3a333a216073c304cb94a76"
+                    "reference": "bf58f98b5ee2ae14139792d921fb84de01c97a85"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/c631d8679bc0acbdb3a333a216073c304cb94a76",
-                    "reference": "c631d8679bc0acbdb3a333a216073c304cb94a76",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/bf58f98b5ee2ae14139792d921fb84de01c97a85",
+                    "reference": "bf58f98b5ee2ae14139792d921fb84de01c97a85",
                     "shasum": ""
                 },
                 "require": {
@@ -417,7 +417,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2015-01-13 11:09:41",
+                "time": "2015-01-15 11:11:44",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -528,9 +528,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "76092bea0ba9ddfef6368078133aa858c55909ae"
+                    "reference": "0bf643319fcdf4f8c51a0c78a47c079123c763a3"
                 },
-                "time": "2015-01-05 17:39:13",
+                "time": "2015-01-15 12:23:07",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -548,13 +548,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-realsync.git",
-                    "reference": "26dcf25add07f4761b5ea3f3b9006f96908436ed"
+                    "reference": "d2bea946dcf29dc9400c75cab0ac8235e4b6063d"
                 },
                 "require": {
                     "phalcon/eyas": "dev-master",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-01-13 16:31:33",
+                "time": "2015-01-15 12:23:33",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
