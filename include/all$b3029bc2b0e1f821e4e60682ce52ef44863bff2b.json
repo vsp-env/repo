@@ -548,13 +548,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-realsync.git",
-                    "reference": "6b236d9bec7cc02e6d62dc34d2ee1af6898c9825"
+                    "reference": "0970c0e3795efb3802a80ba2494b582d507340d0"
                 },
                 "require": {
                     "phalcon/eyas": "dev-master",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-01-25 07:49:33",
+                "time": "2015-01-25 12:07:49",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
