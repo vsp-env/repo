@@ -499,7 +499,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "f455fcde589371e0dbf6c2e2ddbd2f8afffebf8e"
+                    "reference": "5d970cd89cd05c2bc493179ad5c1c502f4e60a7f"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -508,12 +508,9 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-01-26 13:45:50",
+                "time": "2015-01-26 13:49:36",
                 "type": "library",
                 "autoload": {
-                    "classmap": [
-                        "vendor/google/apiclient-partner/YouTubePartner.php"
-                    ],
                     "psr-0": {
                         "Scope": "Lib/",
                         "ScopeExt": "Ext/",
