@@ -479,9 +479,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:vsp-env/eyas.git",
-                    "reference": "c5011882531fc0694848f29890672e8cc27bcddd"
+                    "reference": "50aab98d2fa070e4c230b1e2b706d850ee8976af"
                 },
-                "time": "2015-01-26 09:43:52",
+                "time": "2015-01-27 14:15:16",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -499,7 +499,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "b3a181665baeba56b6174fbb4004be9c3ef15083"
+                    "reference": "81f8a7dffee427c510b54d591ef8ac9ba08a487e"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -508,7 +508,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-01-26 13:54:01",
+                "time": "2015-01-27 14:16:55",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -551,13 +551,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-realsync.git",
-                    "reference": "1a5d79d68040acf7c3ac51dffdb56c0baf0e3c10"
+                    "reference": "a4dd5eaa48ff4c582387c80d1d982d7da4169cb3"
                 },
                 "require": {
                     "phalcon/eyas": "dev-master",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-01-25 12:11:57",
+                "time": "2015-01-27 14:16:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
