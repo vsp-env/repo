@@ -499,7 +499,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "daba6902a77714aa40486c27f6d9da1841f9537c"
+                    "reference": "c8b1c8ddb636f6449cf4b8d57a0d88b6aa439394"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -508,7 +508,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-02-08 16:24:19",
+                "time": "2015-02-09 07:24:45",
                 "type": "library",
                 "autoload": {
                     "classmap": [
