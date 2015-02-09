@@ -395,52 +395,6 @@
                     "source": "https://github.com/google/google-api-php-client/tree/1.1.2",
                     "issues": "https://github.com/google/google-api-php-client/issues"
                 }
-            },
-            "dev-master": {
-                "name": "google/apiclient",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "250e013cc70b9305caf42b7fe43cf9618543cf45"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/250e013cc70b9305caf42b7fe43cf9618543cf45",
-                    "reference": "250e013cc70b9305caf42b7fe43cf9618543cf45",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.2.1"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "3.7.*"
-                },
-                "time": "2015-02-08 11:35:46",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.1.x-dev"
-                    }
-                },
-                "autoload": {
-                    "classmap": [
-                        "src/"
-                    ]
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "description": "Client library for Google APIs",
-                "homepage": "http://developers.google.com/api-client-library/php",
-                "keywords": [
-                    "google"
-                ],
-                "support": {
-                    "source": "https://github.com/google/google-api-php-client/tree/master",
-                    "issues": "https://github.com/google/google-api-php-client/issues"
-                }
             }
         },
         "google/apiclient-partner": {
