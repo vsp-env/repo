@@ -403,12 +403,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "250e013cc70b9305caf42b7fe43cf9618543cf45"
+                    "reference": "b3853aa242dabf8f4b8e343d986f9368632c4eb6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/250e013cc70b9305caf42b7fe43cf9618543cf45",
-                    "reference": "250e013cc70b9305caf42b7fe43cf9618543cf45",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/b3853aa242dabf8f4b8e343d986f9368632c4eb6",
+                    "reference": "b3853aa242dabf8f4b8e343d986f9368632c4eb6",
                     "shasum": ""
                 },
                 "require": {
@@ -417,7 +417,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2015-02-08 11:35:46",
+                "time": "2015-02-11 11:38:54",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -479,9 +479,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:vsp-env/eyas.git",
-                    "reference": "e1713dc5d1078233f207485cc62135dc64595d96"
+                    "reference": "82968514660fa1b094ac94d1c92c37b2b5d983ca"
                 },
-                "time": "2015-02-05 17:08:08",
+                "time": "2015-02-12 11:14:35",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
