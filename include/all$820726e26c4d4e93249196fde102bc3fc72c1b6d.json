@@ -403,12 +403,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "98bdb5beac6b8c6c7ba54924078186a51ddde34f"
+                    "reference": "e190c5b2ed586eaef431d4d0e5f7d6e72c0deb71"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/98bdb5beac6b8c6c7ba54924078186a51ddde34f",
-                    "reference": "98bdb5beac6b8c6c7ba54924078186a51ddde34f",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/e190c5b2ed586eaef431d4d0e5f7d6e72c0deb71",
+                    "reference": "e190c5b2ed586eaef431d4d0e5f7d6e72c0deb71",
                     "shasum": ""
                 },
                 "require": {
@@ -417,7 +417,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2015-03-25 12:17:54",
+                "time": "2015-03-28 12:20:42",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -499,7 +499,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "58f9917234cf1cb285d672eeef92f6872865f427"
+                    "reference": "ea15240c32e323f11ea4b68b49afe0ef2dc5511b"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -508,7 +508,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-03-26 11:30:14",
+                "time": "2015-03-29 08:50:04",
                 "type": "library",
                 "autoload": {
                     "classmap": [
