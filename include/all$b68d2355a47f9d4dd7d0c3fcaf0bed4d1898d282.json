@@ -396,19 +396,19 @@
                     "issues": "https://github.com/google/google-api-php-client/issues"
                 }
             },
-            "dev-master": {
+            "1.1.3": {
                 "name": "google/apiclient",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "5f7ad78ac7e5723b43f1ca369215c559c05355e0"
+                    "reference": "523430f21a92c54172099d12d0f31d40f3de67e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/5f7ad78ac7e5723b43f1ca369215c559c05355e0",
-                    "reference": "5f7ad78ac7e5723b43f1ca369215c559c05355e0",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/523430f21a92c54172099d12d0f31d40f3de67e9",
+                    "reference": "523430f21a92c54172099d12d0f31d40f3de67e9",
                     "shasum": ""
                 },
                 "require": {
@@ -417,7 +417,99 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2015-04-18 12:40:00",
+                "time": "2015-05-17 00:43:01",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/1.1.3",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "1.1.4": {
+                "name": "google/apiclient",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "2adb5ba90612858d4add0342eee6b8b9aaca398d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/2adb5ba90612858d4add0342eee6b8b9aaca398d",
+                    "reference": "2adb5ba90612858d4add0342eee6b8b9aaca398d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2015-05-21 19:35:32",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/1.1.4",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "dev-master": {
+                "name": "google/apiclient",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "818b20c291b074a609da633d243bf61bcf7dfaac"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/818b20c291b074a609da633d243bf61bcf7dfaac",
+                    "reference": "818b20c291b074a609da633d243bf61bcf7dfaac",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2015-05-28 16:09:09",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -439,6 +531,98 @@
                 ],
                 "support": {
                     "source": "https://github.com/google/google-api-php-client/tree/master",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "dev-ianbarber-patch-1": {
+                "name": "google/apiclient",
+                "version": "dev-ianbarber-patch-1",
+                "version_normalized": "dev-ianbarber-patch-1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "a64b216fc637eca0d18185efe7409a9c6b541f17"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a64b216fc637eca0d18185efe7409a9c6b541f17",
+                    "reference": "a64b216fc637eca0d18185efe7409a9c6b541f17",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2015-05-21 19:35:22",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/ianbarber-patch-1",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "dev-ianbarber-patch-2": {
+                "name": "google/apiclient",
+                "version": "dev-ianbarber-patch-2",
+                "version_normalized": "dev-ianbarber-patch-2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "7169724bbe8a1327cc9d1314af357f0192cae6e8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/7169724bbe8a1327cc9d1314af357f0192cae6e8",
+                    "reference": "7169724bbe8a1327cc9d1314af357f0192cae6e8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2015-05-21 19:39:50",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/ianbarber-patch-2",
                     "issues": "https://github.com/google/google-api-php-client/issues"
                 }
             }
@@ -472,6 +656,24 @@
             }
         },
         "phalcon/eyas": {
+            "1.1.x-dev": {
+                "name": "phalcon/eyas",
+                "version": "1.1.x-dev",
+                "version_normalized": "1.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:vsp-env/eyas.git",
+                    "reference": "f45895e9015088180a87e7411cd1d2922e0e20fb"
+                },
+                "time": "2015-06-02 05:03:56",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Phalcon\\Eyas\\": "Lib/"
+                    }
+                },
+                "description": "phalcon mvc framework kit"
+            },
             "dev-master": {
                 "name": "phalcon/eyas",
                 "version": "dev-master",
@@ -479,9 +681,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:vsp-env/eyas.git",
-                    "reference": "d096f1a18e1330d3333806d3dbe5b7616f693f57"
+                    "reference": "e2f3dd06a8448812ec4a7fd7b257ac79576f2bfa"
                 },
-                "time": "2015-03-18 18:30:09",
+                "time": "2015-05-21 17:08:10",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -531,9 +733,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "42a4f8604522c968ca378b2c065490523c1c68f9"
+                    "reference": "16c5ecbcce791cb073691eef892ef6d82ed38b26"
                 },
-                "time": "2015-04-19 12:47:04",
+                "time": "2015-05-27 17:09:18",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
