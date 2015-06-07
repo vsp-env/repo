@@ -495,12 +495,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "818b20c291b074a609da633d243bf61bcf7dfaac"
+                    "reference": "4dccae45acb79b112281cd16968f24c50a4dfd1b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/818b20c291b074a609da633d243bf61bcf7dfaac",
-                    "reference": "818b20c291b074a609da633d243bf61bcf7dfaac",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/4dccae45acb79b112281cd16968f24c50a4dfd1b",
+                    "reference": "4dccae45acb79b112281cd16968f24c50a4dfd1b",
                     "shasum": ""
                 },
                 "require": {
@@ -509,7 +509,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2015-05-28 16:09:09",
+                "time": "2015-06-05 01:04:33",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -663,9 +663,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:vsp-env/eyas.git",
-                    "reference": "f45895e9015088180a87e7411cd1d2922e0e20fb"
+                    "reference": "1787ed478988c90f85d2df7a30c6d9588542248e"
                 },
-                "time": "2015-06-02 05:03:56",
+                "time": "2015-06-07 04:51:38",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -733,9 +733,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "16c5ecbcce791cb073691eef892ef6d82ed38b26"
+                    "reference": "566af22490513163ee8a7c2b495b151003e6f6c3"
                 },
-                "time": "2015-05-27 17:09:18",
+                "time": "2015-06-02 16:46:01",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
