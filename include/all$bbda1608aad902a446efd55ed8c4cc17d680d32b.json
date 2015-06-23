@@ -663,9 +663,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:vsp-env/eyas.git",
-                    "reference": "5f99f9ba769a923bfd076965ab602cb18ba59121"
+                    "reference": "99dedf9bccfb0c0e21bbbe52abecb2ac418ba4ae"
                 },
-                "time": "2015-06-16 17:06:00",
+                "time": "2015-06-22 16:33:39",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -701,7 +701,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "6de8a4ebe59e5615027dd69216cc159551685dba"
+                    "reference": "2dae5afc2a71e252e2170de223a47e191b3dcf0d"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -710,7 +710,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-06-21 04:53:06",
+                "time": "2015-06-22 15:56:49",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -733,9 +733,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "5f0bb3374ad08b807f880315058667929e85f557"
+                    "reference": "68b2931230162477622f964ff74d385f35abaa4b"
                 },
-                "time": "2015-06-18 05:01:31",
+                "time": "2015-06-23 11:59:59",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
