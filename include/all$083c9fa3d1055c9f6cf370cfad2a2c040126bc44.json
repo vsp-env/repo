@@ -495,12 +495,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "23a08e8e7370de1555734434fee86685af072bc2"
+                    "reference": "239435e5a7cf5c9b4218322da8ec13faf194c164"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/23a08e8e7370de1555734434fee86685af072bc2",
-                    "reference": "23a08e8e7370de1555734434fee86685af072bc2",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/239435e5a7cf5c9b4218322da8ec13faf194c164",
+                    "reference": "239435e5a7cf5c9b4218322da8ec13faf194c164",
                     "shasum": ""
                 },
                 "require": {
@@ -509,7 +509,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2015-06-29 13:02:04",
+                "time": "2015-07-01 20:07:32",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -625,6 +625,52 @@
                     "source": "https://github.com/google/google-api-php-client/tree/ianbarber-patch-2",
                     "issues": "https://github.com/google/google-api-php-client/issues"
                 }
+            },
+            "dev-stale_authors": {
+                "name": "google/apiclient",
+                "version": "dev-stale_authors",
+                "version_normalized": "dev-stale_authors",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "7478eb4bd1990089779d2edd01e5f24a479ca4a2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/7478eb4bd1990089779d2edd01e5f24a479ca4a2",
+                    "reference": "7478eb4bd1990089779d2edd01e5f24a479ca4a2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2015-07-01 17:44:50",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/stale_authors",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
             }
         },
         "google/apiclient-partner": {
@@ -663,9 +709,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:vsp-env/eyas.git",
-                    "reference": "99dedf9bccfb0c0e21bbbe52abecb2ac418ba4ae"
+                    "reference": "513143778a5b22fc91786df46de7e90f888d4e17"
                 },
-                "time": "2015-06-22 16:33:39",
+                "time": "2015-07-02 07:51:11",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -733,9 +779,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "a7a5a3afca244491057e9cf5809dc41afe70e69b"
+                    "reference": "e67e01115a8e95ddd7346efb5625e624b225e37d"
                 },
-                "time": "2015-06-28 04:54:47",
+                "time": "2015-07-01 16:17:59",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
