@@ -739,6 +739,30 @@
                 "description": "phalcon mvc framework kit"
             }
         },
+        "vsp/microbe": {
+            "dev-master": {
+                "name": "vsp/microbe",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/microbe.git",
+                    "reference": "4dc16c00348df6b5b9402c352e94649641d43ea9"
+                },
+                "require": {
+                    "php": ">=5.4",
+                    "vsp/vsp-aux": "dev-master"
+                },
+                "time": "2015-07-05 07:02:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Microbe\\": "src/"
+                    }
+                },
+                "description": "cross-db OM (object mapper)"
+            }
+        },
         "vsp/scope": {
             "dev-master": {
                 "name": "vsp/scope",
@@ -779,9 +803,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "e67e01115a8e95ddd7346efb5625e624b225e37d"
+                    "reference": "ef5e736170e74483b0da3edb1c16740c7ecd1ac6"
                 },
-                "time": "2015-07-01 16:17:59",
+                "time": "2015-07-02 15:03:03",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
