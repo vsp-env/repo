@@ -495,12 +495,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "239435e5a7cf5c9b4218322da8ec13faf194c164"
+                    "reference": "d93ae6765c5ed911eda4bd6893cf3b94154e4425"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/239435e5a7cf5c9b4218322da8ec13faf194c164",
-                    "reference": "239435e5a7cf5c9b4218322da8ec13faf194c164",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/d93ae6765c5ed911eda4bd6893cf3b94154e4425",
+                    "reference": "d93ae6765c5ed911eda4bd6893cf3b94154e4425",
                     "shasum": ""
                 },
                 "require": {
@@ -509,7 +509,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2015-07-01 20:07:32",
+                "time": "2015-07-07 13:09:14",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -747,13 +747,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/microbe.git",
-                    "reference": "4dc16c00348df6b5b9402c352e94649641d43ea9"
+                    "reference": "657dc0989574a848373baf6b3024785597307ba3"
                 },
                 "require": {
-                    "php": ">=5.4",
+                    "php": ">=5.5",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-07-05 07:02:00",
+                "time": "2015-07-09 12:07:58",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -771,7 +771,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "8f7001f170499b884bc8048f7279ca125d3e787a"
+                    "reference": "7bf8ceb9819c990fd8b4ea16f78db7bd2b349319"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -780,7 +780,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-06-29 15:48:12",
+                "time": "2015-07-08 11:05:14",
                 "type": "library",
                 "autoload": {
                     "classmap": [
