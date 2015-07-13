@@ -495,21 +495,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "d93ae6765c5ed911eda4bd6893cf3b94154e4425"
+                    "reference": "7ee4cb2b473de3bf5cd2a5ada95a2f363b4a4532"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/d93ae6765c5ed911eda4bd6893cf3b94154e4425",
-                    "reference": "d93ae6765c5ed911eda4bd6893cf3b94154e4425",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/7ee4cb2b473de3bf5cd2a5ada95a2f363b4a4532",
+                    "reference": "7ee4cb2b473de3bf5cd2a5ada95a2f363b4a4532",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.2.1"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "3.7.*"
+                    "phpunit/phpunit": "3.7.*",
+                    "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2015-07-07 13:09:14",
+                "time": "2015-07-10 10:32:54",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -761,6 +762,28 @@
                     }
                 },
                 "description": "cross-db OM (object mapper)"
+            },
+            "dev-ref1": {
+                "name": "vsp/microbe",
+                "version": "dev-ref1",
+                "version_normalized": "dev-ref1",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/microbe.git",
+                    "reference": "31569d1c461178298c02ea9a534014c29ac3a205"
+                },
+                "require": {
+                    "php": ">=5.5",
+                    "vsp/vsp-aux": "dev-master"
+                },
+                "time": "2015-07-11 22:35:30",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Microbe\\": "src/"
+                    }
+                },
+                "description": "cross-db OM (object mapper)"
             }
         },
         "vsp/scope": {
@@ -793,6 +816,36 @@
                     }
                 },
                 "description": "implements Data API's wrappers, provides DAL - data abstraction layer for VSP services"
+            },
+            "dev-ref1": {
+                "name": "vsp/scope",
+                "version": "dev-ref1",
+                "version_normalized": "dev-ref1",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/scope.git",
+                    "reference": "9c8354c30dd773fa9a8b31a434073e1af081937e"
+                },
+                "require": {
+                    "google/apiclient": "dev-master",
+                    "google/apiclient-partner": "1.0.6",
+                    "google/ganon": "dev-master",
+                    "querypath/querypath": ">=3.0.0",
+                    "vsp/vsp-aux": "dev-master"
+                },
+                "time": "2015-07-13 11:38:40",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "../../../vendor/google/apiclient-partner/YouTubePartner.php"
+                    ],
+                    "psr-0": {
+                        "Scope": "Lib/",
+                        "ScopeDAL": "Service/",
+                        "ScopeService": "Service/"
+                    }
+                },
+                "description": "implements Data API's wrappers, provides DAL - data abstraction layer for VSP services"
             }
         },
         "vsp/vsp-aux": {
@@ -803,13 +856,31 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "ef5e736170e74483b0da3edb1c16740c7ecd1ac6"
+                    "reference": "e8eed539b9360560848c375b1e282b4689e99104"
                 },
-                "time": "2015-07-02 15:03:03",
+                "time": "2015-07-12 14:26:17",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
                         "VSP\\Aux\\": "Lib/"
+                    }
+                },
+                "description": "vsp, auxiliary stuff"
+            },
+            "dev-ref1": {
+                "name": "vsp/vsp-aux",
+                "version": "dev-ref1",
+                "version_normalized": "dev-ref1",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/vsp-aux.git",
+                    "reference": "d463f6b41d4bcff4f2845fd946cc7cd829c75165"
+                },
+                "time": "2015-07-13 15:37:39",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "VSP\\Aux\\": "src/"
                     }
                 },
                 "description": "vsp, auxiliary stuff"
