@@ -905,6 +905,28 @@
                     }
                 },
                 "description": "vsp, global authentication library"
+            },
+            "dev-ref1": {
+                "name": "vsp/vsp-realsync",
+                "version": "dev-ref1",
+                "version_normalized": "dev-ref1",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/vsp-realsync.git",
+                    "reference": "e237911eeb2fd9e53082dff5d863f05cb2a0ee4c"
+                },
+                "require": {
+                    "phalcon/eyas": "dev-master",
+                    "vsp/vsp-aux": "dev-ref1"
+                },
+                "time": "2015-07-19 11:22:48",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "VSP\\RealSync\\": "Lib/"
+                    }
+                },
+                "description": "vsp, global authentication library"
             }
         }
     }
