@@ -784,6 +784,28 @@
                     }
                 },
                 "description": "cross-db OM (object mapper)"
+            },
+            "dev-ref2": {
+                "name": "vsp/microbe",
+                "version": "dev-ref2",
+                "version_normalized": "dev-ref2",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/microbe.git",
+                    "reference": "88422aab4564db9812709d53235aac9ac0d5ffcf"
+                },
+                "require": {
+                    "php": ">=5.5",
+                    "vsp/vsp-aux": "dev-ref1"
+                },
+                "time": "2015-08-09 16:58:52",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Microbe\\": "src/"
+                    }
+                },
+                "description": "cross-db OM (object mapper)"
             }
         },
         "vsp/scope": {
