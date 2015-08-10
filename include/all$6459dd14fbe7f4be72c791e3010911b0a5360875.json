@@ -792,13 +792,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/microbe.git",
-                    "reference": "88422aab4564db9812709d53235aac9ac0d5ffcf"
+                    "reference": "501bc9b3b42c96821e035553acd613856b6e4dc8"
                 },
                 "require": {
                     "php": ">=5.5",
                     "vsp/vsp-aux": "dev-ref1"
                 },
-                "time": "2015-08-09 16:58:52",
+                "time": "2015-08-10 14:00:16",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -893,9 +893,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "51b5c6621bbac536c3dd95cbafe4f08470616874"
+                    "reference": "f76a4d8c7bc99cc862892d485e971079d3b90951"
                 },
-                "time": "2015-08-08 19:59:29",
+                "time": "2015-08-10 14:05:29",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
