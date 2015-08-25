@@ -792,13 +792,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/microbe.git",
-                    "reference": "203029a83e0254343d88ed1823f7df658e71acc1"
+                    "reference": "dec9cfb342733c79ca27b086b58f3feb7d22db9e"
                 },
                 "require": {
                     "php": ">=5.5",
                     "vsp/vsp-aux": "dev-ref1"
                 },
-                "time": "2015-08-24 13:29:42",
+                "time": "2015-08-24 16:23:02",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
