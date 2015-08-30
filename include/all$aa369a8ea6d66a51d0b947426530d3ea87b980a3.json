@@ -792,13 +792,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/microbe.git",
-                    "reference": "dec9cfb342733c79ca27b086b58f3feb7d22db9e"
+                    "reference": "318d6b51f6bda563ba32183f3b5487be7acc9881"
                 },
                 "require": {
                     "php": ">=5.5",
                     "vsp/vsp-aux": "dev-ref1"
                 },
-                "time": "2015-08-24 16:23:02",
+                "time": "2015-08-27 10:27:56",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -856,6 +856,33 @@
                     "vsp/vsp-aux": "dev-ref1"
                 },
                 "time": "2015-08-23 16:32:52",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Scope": "Lib/",
+                        "ScopeDAL": "Service/",
+                        "ScopeService": "Service/"
+                    }
+                },
+                "description": "implements Data API's wrappers, provides DAL - data abstraction layer for VSP services"
+            },
+            "dev-ref2": {
+                "name": "vsp/scope",
+                "version": "dev-ref2",
+                "version_normalized": "dev-ref2",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/scope.git",
+                    "reference": "ee67a1f86d7c21a902f9a0d037d3ea97e862a12f"
+                },
+                "require": {
+                    "google/apiclient": "dev-master",
+                    "google/apiclient-partner": "1.0.6",
+                    "google/ganon": "dev-master",
+                    "querypath/querypath": ">=3.0.0",
+                    "vsp/vsp-aux": "dev-ref1"
+                },
+                "time": "2015-08-27 10:26:31",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
