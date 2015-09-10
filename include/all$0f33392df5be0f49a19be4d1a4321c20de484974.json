@@ -672,6 +672,54 @@
                     "source": "https://github.com/google/google-api-php-client/tree/stale_authors",
                     "issues": "https://github.com/google/google-api-php-client/issues"
                 }
+            },
+            "dev-v2-dev": {
+                "name": "google/apiclient",
+                "version": "dev-v2-dev",
+                "version_normalized": "dev-v2-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "14afc7f689f91c990859fa0d03f4db92c7cc89e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/14afc7f689f91c990859fa0d03f4db92c7cc89e6",
+                    "reference": "14afc7f689f91c990859fa0d03f4db92c7cc89e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/auth": "dev-master",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2015-09-03 23:08:55",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/v2-dev",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
             }
         },
         "google/apiclient-partner": {
@@ -792,13 +840,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/microbe.git",
-                    "reference": "318d6b51f6bda563ba32183f3b5487be7acc9881"
+                    "reference": "99e65a546e8474e12d88c1c5abcf263188479726"
                 },
                 "require": {
                     "php": ">=5.5",
                     "vsp/vsp-aux": "dev-ref1"
                 },
-                "time": "2015-08-27 10:27:56",
+                "time": "2015-09-10 08:16:15",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -873,7 +921,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "ee67a1f86d7c21a902f9a0d037d3ea97e862a12f"
+                    "reference": "394493b1dc12fa0306b2b244f6f9c5831eac8c20"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -882,7 +930,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-ref1"
                 },
-                "time": "2015-08-27 10:26:31",
+                "time": "2015-09-01 08:21:08",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -920,9 +968,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "0b463b1fff1d941171a85952b4991057c2fa8888"
+                    "reference": "1af563e7bbab22bf1dba10f6bf652dca7136486c"
                 },
-                "time": "2015-08-25 15:34:31",
+                "time": "2015-09-09 15:20:37",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
