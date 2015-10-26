@@ -542,12 +542,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "ea34f77dfc3dba54fac9c6dc399375b875d2f63f"
+                    "reference": "a25dc9d5c109ebb02945ba1ff6336cc937c27628"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/ea34f77dfc3dba54fac9c6dc399375b875d2f63f",
-                    "reference": "ea34f77dfc3dba54fac9c6dc399375b875d2f63f",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a25dc9d5c109ebb02945ba1ff6336cc937c27628",
+                    "reference": "a25dc9d5c109ebb02945ba1ff6336cc937c27628",
                     "shasum": ""
                 },
                 "require": {
@@ -557,7 +557,54 @@
                     "phpunit/phpunit": "3.7.*",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2015-10-12 18:23:48",
+                "time": "2015-10-16 22:11:08",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Client library for Google APIs",
+                "homepage": "http://developers.google.com/api-client-library/php",
+                "keywords": [
+                    "google"
+                ],
+                "support": {
+                    "source": "https://github.com/google/google-api-php-client/tree/master",
+                    "issues": "https://github.com/google/google-api-php-client/issues"
+                }
+            },
+            "dev-v1-master": {
+                "name": "google/apiclient",
+                "version": "dev-v1-master",
+                "version_normalized": "dev-v1-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/google/google-api-php-client.git",
+                    "reference": "a25dc9d5c109ebb02945ba1ff6336cc937c27628"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a25dc9d5c109ebb02945ba1ff6336cc937c27628",
+                    "reference": "a25dc9d5c109ebb02945ba1ff6336cc937c27628",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2015-10-16 22:11:08",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -657,13 +704,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/microbe.git",
-                    "reference": "9a1219107e254c7c8f761d38256f503a4fcad8f6"
+                    "reference": "49b1d1343730e4e417bba2d695a81a2ffbeb7835"
                 },
                 "require": {
                     "php": ">=5.5",
-                    "vsp/vsp-aux": "dev-master"
+                    "vsp/vsp-aux": "dev-ref1"
                 },
-                "time": "2015-07-10 21:58:21",
+                "time": "2015-10-26 05:46:03",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -701,13 +748,35 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/microbe.git",
-                    "reference": "403668280a66299b2de37bc494defa82173bdd22"
+                    "reference": "e691f9a3a5324ebc3507f0da35a195b4936ca88b"
                 },
                 "require": {
                     "php": ">=5.5",
                     "vsp/vsp-aux": "dev-ref1"
                 },
-                "time": "2015-10-13 10:16:04",
+                "time": "2015-10-22 14:16:13",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Microbe\\": "src/"
+                    }
+                },
+                "description": "cross-db OM (object mapper)"
+            },
+            "dev-ref3": {
+                "name": "vsp/microbe",
+                "version": "dev-ref3",
+                "version_normalized": "dev-ref3",
+                "source": {
+                    "type": "git",
+                    "url": "git@vsp:vsp-env/microbe.git",
+                    "reference": "b2e51548eb294927535220600b514a1fd006ae5c"
+                },
+                "require": {
+                    "php": ">=5.5",
+                    "vsp/vsp-aux": "dev-ref1"
+                },
+                "time": "2015-10-24 12:54:52",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -755,7 +824,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "7f260096b4d6d8483b076697fc395d858b8bf321"
+                    "reference": "30759aa9dfadc1f0879ab6d0b0603afcf69040ae"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -764,7 +833,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-ref1"
                 },
-                "time": "2015-09-30 11:06:27",
+                "time": "2015-10-21 10:01:40",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -856,9 +925,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "e997c3628f064ccee262283e6f9cadb2c6f5eed5"
+                    "reference": "560d004e94a8e1e66a86c1e83c35284b61c9cce1"
                 },
-                "time": "2015-10-14 04:59:23",
+                "time": "2015-10-25 11:14:42",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
