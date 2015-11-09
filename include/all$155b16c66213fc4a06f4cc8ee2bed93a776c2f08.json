@@ -666,9 +666,27 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:vsp-env/eyas.git",
-                    "reference": "b442563322583d9b609222f8b4adc85b4f998772"
+                    "reference": "e0fb746051a31a71a8763414b8aba166490ddd3f"
                 },
-                "time": "2015-10-14 12:48:51",
+                "time": "2015-11-02 16:11:31",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Phalcon\\Eyas\\": "Lib/"
+                    }
+                },
+                "description": "phalcon mvc framework kit"
+            },
+            "1.2.x-dev": {
+                "name": "phalcon/eyas",
+                "version": "1.2.x-dev",
+                "version_normalized": "1.2.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:vsp-env/eyas.git",
+                    "reference": "339592370bce68252b5dced7226603691967b68a"
+                },
+                "time": "2015-11-05 08:36:32",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -722,13 +740,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/microbe.git",
-                    "reference": "be002ef4ba71036f398703f03c5dd66c2c2842d7"
+                    "reference": "c506160b3a01d7024dcda185436e150526748bce"
                 },
                 "require": {
                     "php": ">=5.5",
-                    "vsp/vsp-aux": "dev-ref1"
+                    "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-10-27 15:29:57",
+                "time": "2015-11-09 13:23:15",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -869,16 +887,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "f5a15bda573a2c3e43e27efd4cc07b8b30a0265c"
+                    "reference": "6df31617ed07dffee8d34e3871fe79c099bc7d3b"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
                     "google/apiclient-partner": "1.0.6",
                     "google/ganon": "dev-master",
                     "querypath/querypath": ">=3.0.0",
-                    "vsp/vsp-aux": "dev-ref1"
+                    "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-11-01 08:38:46",
+                "time": "2015-11-09 13:24:54",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -925,13 +943,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "e8eed539b9360560848c375b1e282b4689e99104"
+                    "reference": "e4fc87f9e914707dcb6c8d1a9f5ed2a9d6b4fd04"
                 },
-                "time": "2015-07-12 14:26:17",
+                "time": "2015-11-08 05:50:07",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
-                        "VSP\\Aux\\": "Lib/"
+                        "VSP\\Aux\\": "src/"
                     }
                 },
                 "description": "vsp, auxiliary stuff"
