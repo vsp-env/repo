@@ -943,9 +943,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "e4fc87f9e914707dcb6c8d1a9f5ed2a9d6b4fd04"
+                    "reference": "12ce0be61a3332f38e39d075966c0155fa23cfd3"
                 },
-                "time": "2015-11-08 05:50:07",
+                "time": "2015-11-09 16:47:26",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
