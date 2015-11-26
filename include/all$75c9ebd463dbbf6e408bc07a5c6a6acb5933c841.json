@@ -740,13 +740,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/microbe.git",
-                    "reference": "c506160b3a01d7024dcda185436e150526748bce"
+                    "reference": "d1c392147fc2902ce3adae769d4d8c9a2c7262ee"
                 },
                 "require": {
                     "php": ">=5.5",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-11-09 13:23:15",
+                "time": "2015-11-23 16:24:57",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -887,7 +887,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "6df31617ed07dffee8d34e3871fe79c099bc7d3b"
+                    "reference": "ad7d22ff40ea200726c4c19cb25450af8f9046d7"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -896,7 +896,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-11-09 13:24:54",
+                "time": "2015-11-25 11:18:01",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -943,9 +943,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/vsp-aux.git",
-                    "reference": "12ce0be61a3332f38e39d075966c0155fa23cfd3"
+                    "reference": "7c81ec4b802741d80f6560ec7faedeec135e5895"
                 },
-                "time": "2015-11-09 16:47:26",
+                "time": "2015-11-19 09:16:24",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
