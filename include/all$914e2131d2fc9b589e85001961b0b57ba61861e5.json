@@ -589,12 +589,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/google/google-api-php-client.git",
-                    "reference": "09701cc6edaa151cdda5c6572041767caa506ee6"
+                    "reference": "5fe588d171fc3c69fce143187f64b8f56a93a9f7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/09701cc6edaa151cdda5c6572041767caa506ee6",
-                    "reference": "09701cc6edaa151cdda5c6572041767caa506ee6",
+                    "url": "https://api.github.com/repos/google/google-api-php-client/zipball/5fe588d171fc3c69fce143187f64b8f56a93a9f7",
+                    "reference": "5fe588d171fc3c69fce143187f64b8f56a93a9f7",
                     "shasum": ""
                 },
                 "require": {
@@ -604,7 +604,7 @@
                     "phpunit/phpunit": "3.7.*",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2015-12-08 19:07:52",
+                "time": "2016-01-08 19:40:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -666,9 +666,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:vsp-env/eyas.git",
-                    "reference": "3fa74b9d61707e189babf588ad874829775b2b56"
+                    "reference": "dfee189fcc667ac1a79ff978a7a18ecf2fd5641c"
                 },
-                "time": "2015-12-07 15:05:50",
+                "time": "2015-12-07 15:22:56",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -684,9 +684,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:vsp-env/eyas.git",
-                    "reference": "55384358e0ee9d9b941be91fd7aab5200838e2db"
+                    "reference": "2e12006495f0febf6a1c43a0ce32484cb8ced1d0"
                 },
-                "time": "2015-12-24 17:25:32",
+                "time": "2016-01-12 09:29:18",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -705,6 +705,24 @@
                     "reference": "e2f3dd06a8448812ec4a7fd7b257ac79576f2bfa"
                 },
                 "time": "2015-05-21 17:08:10",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Phalcon\\Eyas\\": "Lib/"
+                    }
+                },
+                "description": "phalcon mvc framework kit"
+            },
+            "dev-1.2.phalcon2": {
+                "name": "phalcon/eyas",
+                "version": "dev-1.2.phalcon2",
+                "version_normalized": "dev-1.2.phalcon2",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:vsp-env/eyas.git",
+                    "reference": "1bd1369d0bd1debc883b8883f20115a666fa36de"
+                },
+                "time": "2016-01-11 15:30:12",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -887,7 +905,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "9d10a74150261f370f2dbae16f0471f1bddb42a9"
+                    "reference": "5264245a327126f3ba73605cdd99ebd206a26cf3"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
@@ -896,7 +914,7 @@
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2016-01-03 11:08:14",
+                "time": "2016-01-12 13:47:48",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
