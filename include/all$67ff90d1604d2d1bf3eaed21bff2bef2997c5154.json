@@ -758,13 +758,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/microbe.git",
-                    "reference": "0c6761cb0dd9ea736602db4e0f15c84abf6e9e88"
+                    "reference": "9e494493e580c4b69fa26e265f9d65645606b92f"
                 },
                 "require": {
                     "php": ">=5.5",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2015-12-16 09:55:05",
+                "time": "2016-01-14 07:59:26",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
