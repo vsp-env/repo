@@ -917,17 +917,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "3779c1883ac28d4f6bf3a82fa248f4dc1473f2f0"
+                    "reference": "ac464263917dcc7ce9a67b1bac15300b49e4a8b8"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
                     "google/apiclient-partner": "1.0.6",
                     "google/ganon": "dev-master",
                     "querypath/querypath": ">=3.0.0",
-                    "simple-html-dom/simple-html-dom": "dev-master",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2016-07-10 04:05:57",
+                "time": "2016-07-20 10:27:56",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
