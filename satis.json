@@ -34,10 +34,6 @@
         },
         {
             "type":         "vcs",
-            "url":          "git@vsp:vsp-env/microbe.git"
-        },
-        {
-            "type":         "vcs",
             "url":          "git@vsp:vsp-env/scope.git"
         },
         {
