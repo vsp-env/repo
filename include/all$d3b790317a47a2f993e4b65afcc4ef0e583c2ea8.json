@@ -1,5 +1,38 @@
 {
     "packages": {
+        "draydeer/microbe": {
+            "dev-master": {
+                "name": "draydeer/microbe",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/draydeer/microbe.git",
+                    "reference": "28cda1a911b53604c715922eb3bc6358802a8d0d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/draydeer/microbe/zipball/28cda1a911b53604c715922eb3bc6358802a8d0d",
+                    "reference": "28cda1a911b53604c715922eb3bc6358802a8d0d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.5"
+                },
+                "time": "2016-10-18 09:07:13",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Microbe\\": "src/"
+                    }
+                },
+                "description": "cross-db OM (object mapper)",
+                "support": {
+                    "source": "https://github.com/draydeer/microbe/tree/master",
+                    "issues": "https://github.com/draydeer/microbe/issues"
+                }
+            }
+        },
         "google/apiclient": {
             "v1.0.0-alpha": {
                 "name": "google/apiclient",

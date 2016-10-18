@@ -26,6 +26,10 @@
         },
         {
             "type":         "vcs",
+            "url":          "https://github.com/draydeer/microbe.git"
+        },
+        {
+            "type":         "vcs",
             "url":          "https://github.com/google/google-api-php-client.git"
         },
         {
