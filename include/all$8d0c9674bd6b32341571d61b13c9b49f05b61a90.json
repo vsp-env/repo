@@ -852,16 +852,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@vsp:vsp-env/scope.git",
-                    "reference": "2a9b91cd13c7c1b6ba0e6bf0765279a6ad882651"
+                    "reference": "11f862cbc04775aa353c64285aae5562e9a8d8a9"
                 },
                 "require": {
                     "google/apiclient": "dev-master",
                     "google/apiclient-partner": "1.0.6",
-                    "google/ganon": "dev-master",
                     "querypath/querypath": ">=3.0.0",
                     "vsp/vsp-aux": "dev-master"
                 },
-                "time": "2016-10-10 09:20:46",
+                "time": "2016-10-18 11:19:36",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
