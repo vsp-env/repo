@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/draydeer/microbe.git",
-                    "reference": "a3faa142eeb81afcb044021f5850e50b661e74c0"
+                    "reference": "d043926f70c748d32ebcfe0f1f8c64657754869d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/draydeer/microbe/zipball/a3faa142eeb81afcb044021f5850e50b661e74c0",
-                    "reference": "a3faa142eeb81afcb044021f5850e50b661e74c0",
+                    "url": "https://api.github.com/repos/draydeer/microbe/zipball/d043926f70c748d32ebcfe0f1f8c64657754869d",
+                    "reference": "d043926f70c748d32ebcfe0f1f8c64657754869d",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.5"
                 },
-                "time": "2016-10-19 06:25:18",
+                "time": "2016-10-19 08:23:55",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
